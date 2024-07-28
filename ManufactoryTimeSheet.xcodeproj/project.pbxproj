@@ -9,18 +9,20 @@
 /* Begin PBXBuildFile section */
 		CC7D06DE2C43BE6A00153685 /* ManufactoryTimeSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D06DD2C43BE6A00153685 /* ManufactoryTimeSheetApp.swift */; };
 		CC7D06E02C43BE6A00153685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D06DF2C43BE6A00153685 /* ContentView.swift */; };
-		CC7D06E22C43BE6A00153685 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D06E12C43BE6A00153685 /* Item.swift */; };
 		CC7D06E42C43BE6C00153685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7D06E32C43BE6C00153685 /* Assets.xcassets */; };
 		CC7D06E72C43BE6C00153685 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7D06E62C43BE6C00153685 /* Preview Assets.xcassets */; };
+		CC7D06F02C43C42300153685 /* ReportEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D06EF2C43C42300153685 /* ReportEditor.swift */; };
+		CC7D06F22C43C4EE00153685 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D06F12C43C4EE00153685 /* Report.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC7D06DA2C43BE6A00153685 /* ManufactoryTimeSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManufactoryTimeSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7D06DD2C43BE6A00153685 /* ManufactoryTimeSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManufactoryTimeSheetApp.swift; sourceTree = "<group>"; };
 		CC7D06DF2C43BE6A00153685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CC7D06E12C43BE6A00153685 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CC7D06E32C43BE6C00153685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7D06E62C43BE6C00153685 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC7D06EF2C43C42300153685 /* ReportEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportEditor.swift; sourceTree = "<group>"; };
+		CC7D06F12C43C4EE00153685 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			children = (
 				CC7D06DD2C43BE6A00153685 /* ManufactoryTimeSheetApp.swift */,
 				CC7D06DF2C43BE6A00153685 /* ContentView.swift */,
-				CC7D06E12C43BE6A00153685 /* Item.swift */,
+				CC7D06EF2C43C42300153685 /* ReportEditor.swift */,
+				CC7D06F12C43C4EE00153685 /* Report.swift */,
 				CC7D06E32C43BE6C00153685 /* Assets.xcassets */,
 				CC7D06E52C43BE6C00153685 /* Preview Content */,
 			);
@@ -140,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7D06F02C43C42300153685 /* ReportEditor.swift in Sources */,
+				CC7D06F22C43C4EE00153685 /* Report.swift in Sources */,
 				CC7D06E02C43BE6A00153685 /* ContentView.swift in Sources */,
-				CC7D06E22C43BE6A00153685 /* Item.swift in Sources */,
 				CC7D06DE2C43BE6A00153685 /* ManufactoryTimeSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,8 +280,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ManufactoryTimeSheet/Preview Content\"";
+				DEVELOPMENT_TEAM = 899N8QWHUX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,8 +310,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ManufactoryTimeSheet/Preview Content\"";
+				DEVELOPMENT_TEAM = 899N8QWHUX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

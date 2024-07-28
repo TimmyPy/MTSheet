@@ -12,7 +12,8 @@ import SwiftData
 struct ManufactoryTimeSheetApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+//            Item.self,
+            Report.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
